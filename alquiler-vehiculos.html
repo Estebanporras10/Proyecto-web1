@@ -1,72 +1,93 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alquiler de Vehículos</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="css/styleAlqVeh.css">
+    <title>Let's Go</title>
 </head>
 <body>
     <header>
-    <h1>Alquiler de Vehículos</h1>
-    <nav>
-        <ul class="menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="#">Sobre Puntarenas</a></li>
-        <li><a href="#">Vehículos</a></li>
-        <li><a href="#">Reservas</a></li>
-        <li><a href="#">Contacto</a></li>
-        </ul>
+    <h1>Let's Go - Alquiler de Vehiculos</h1>
+    <nav class="navheader">
+        <a class="aheader" href="index.html">Inicio</a>
+        <a class="aheader" href="Transporte-publico.html">Transporte Público</a>
+        <a class="aheader" href="alquiler-vehiculos.html">Alquiler de Vehículos</a>
+        <a class="aheader" href="vuelos-internos.html">Vuelos Internos</a>
+        <a class="aheader" href="#consejos-transporte">Consejos de Transporte</a>
+        <a class="aheader" href="#recursos-adicionales">Recursos Adicionales</a>
+        <a class="aheader" href="#contacto">Contacto</a>
     </nav>
     </header>
 
-    <main>
-    <section>
-        <h2>Reserva tu vehículo</h2>
-        <form>
-            <label for="Fecha-recogida">Fecha de recogida:</label>
-            <input type="date" id="Fecha-recogida" name="Fecha-recogida" required>
-            <br>
-            <label for="devolución-fecha">Fecha de devolución:</label>
-            <input type="date" id="devolución-fecha" name="devolución-fecha" required>
-            <br>
-            <label for="tipo-Vehiculo">Tipo de vehículo:</label>
-            <select id="tipo-Vehiculo" name="vehicle-type" required>
-                <option value="">Selecciona un tipo</option>
-                <option value="Carro">Automóvil</option>
-                <option value="Bici">Bicicleta</option>
-                <option value="moto">Motocicleta</option>
-            </select>
-            <br>
-            <button type="submit">Reservar</button>
-            <button type="submit">Cancelar</button>
-        </form>
-    </section>
+    <div class="divprincipal">
+        <div class="divAlquiler">
+            <form action="" method="get">
+                <Label for="Fecha-ingreso">Fecha de retiro</Label>
+                <input type="month" name="Fecha-ingreso" id="Fecha-ingreso">
+                <br>
+                <label for="Fecha-devolucion">Fecha devolucion</label>
+                <input type="month" name="Fecha-devolucion" id="Fecha-devolucion">
+                <br>
+                <label for="Hora">Hora</label>
+                <input type="time" name="Hora" id="Hora">
+                <label for="Tipo">Tipo</label>
+                <select id="MarcaVehiculo" form="prueba">
+                    <option value="1">Automovil</option>
+                    <option value="2">Motocicleta</option>
+                    <option value="3">Bicicleta</option>
+                </select>
+                <br>
+                <button>Aceptar</button><button>Cancelar</button>
+            </form>
+        </div>
+        <div class="divinfoclient">
+            <label for="cedula">cedula</label>
+            <input type="number" name="" id="">
+        </div>
+        <div class="divinfoVeh">
+            <h1 class="Tv">Vehiculos a disposicion</h1>
+            <div class="div1">
+                <h2 class="Vdisponibles">Automoviles</h2>
+                <img src="imagen/Automovil.png" style="width: 90px;  position: relative; right: 100px;">
+                Info Automovil
+            </div>
+            
+            <div class="div2">
+                <h2 class="Vdisponibles">Motocicletas</h2>
+                <img src="imagen/Moto.png" style="width: 60px;  position: relative; right: 120px;">
+                Info Motocicleta
+            </div>
+            <div class="div3">
+                <h2 class="Vdisponibles">Bicicletas</h2>
+                <img src="imagen/Bicicleta.png" style="width: 50px; position: relative; right: 150px;">
+                Info Bicicleta
+            </div>
+        </div>
+        <div class="divpublicidad">
 
-    <section>
-        <h2>Vehículos disponibles</h2>
-        <ul class="Lista-Vehiculos">
-            <li>
-            <img src="imagen/Automovil.png" style="width: 100px;">
-            <h3>Automovil</h3>
-            <p>Precio: $80 por día</p>
-            </li>
-            <li>
-            <img src="imagen/Moto.png" style="width: 100px;">
-            <h3>Motocicleta</h3>
-            <p>Precio: $50 por día</p>
-            </li>
-            <li>
-            <img src="imagen/Bicicleta.png" style="width: 100px;">
-            <h3>Bicicleta</h3>
-            <p>Precio: $10 por día</p>
-            </li>
-        </ul>
-    </section>
-    </main>
+        </div>
+    </div>
     <footer>
-    <p>© 2023 Alquiler de Vehículos. Todos los derechos reservados.</p>
+    <div >
+        <h3>Sobre Nosotros</h3>
+        <p>Somos una agencia de turismo dedicada a brindar experiencias inolvidables a nuestros clientes.</p>
+    </div>
+    <div >
+        <h3>Enlaces</h3>
+        <nav>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Transporte-publico.html">Transporte Público</a></li>
+        <li><a href="alquiler-vehiculos.html">Alquiler de Vehículos</a></li>
+        <li><a href="#vuelos-internos">Vuelos Internos</a></li>
+        <li><a href="#consejos-transporte">Consejos de Transporte</a></li>
+        <li><a href="#recursos-adicionales">Recursos Adicionales</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        </nav>
+    </div>
+    <div >
+        <p>&copy; 2023 Let's Go - Medios de Transporte en Costa Rica. Todos los derechos reservados.</p>
+    </div>
     </footer>
 </body>
 </html>

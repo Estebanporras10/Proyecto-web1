@@ -1,0 +1,151 @@
+/* colores a emplear
+  #71c55b Verde
+  #ff4040 Rojo
+  #e48200 Naranja 1
+  #ff8243 Naranja 2
+  #84b6f4 Azul*/
+
+/* Estilos para el encabezado */
+body{
+    margin: 0px;
+}
+
+header {
+    background-color: #71c55b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}  
+h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+header {
+    background-color: #71c55b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.aheader{
+    color: #050a07;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.navheader {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el menu */
+.divprincipal{
+    background-color: #0bcead;
+    height: 1000px;
+    width: auto;
+}
+/* Estilos para el formalario de alquiler*/
+.divAlquiler{
+    font-size: 25px;
+    width: 350px;
+    height: 120px;
+    background-color: #ff8243;
+    border: 4px inset #ff4040;
+}
+
+.divAlquiler{
+    position: relative;
+    top: 8px;
+    left: 800px;
+}
+
+.divinfoclient{
+    font-size: 25px;
+    width: 350px;
+    height: 120px;
+    background-color: #ff8243;
+    border: 4px inset #ff4040;
+}
+
+.divinfoclient{
+    position: relative;
+    top: 10px;
+    left: 800px;
+}
+
+.divinfoVeh{
+    
+    font-size: 20px;
+    width: 350px;
+    height: 700px;
+    background-color: #ff8243;
+    border: 4px inset #ff4040;
+}
+
+.divinfoVeh{
+    position: relative;
+    top: 20px;
+    left: 800px;
+}
+
+.Tv{
+    font-size: 30px; 
+}
+
+.Vdisponibles{
+    font-size: 20px;
+}
+
+.div1,.div2,.div3{
+    height: 108px;
+    width: auto;
+    border: 2px inset #ff4040;
+    background-color: #e48200;
+}
+.div1,.div2,.div3{
+    text-align: right;
+}
+
+.divpublicidad{
+    font-size: 20px;
+    width: 760px;
+    height: 970px;
+    background-color: #ff8243;
+    border: 4px inset #ff4040;
+}
+
+.divpublicidad{
+    position: relative;
+    bottom: 956px;
+    left: 10px;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #71c55b;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+h3 {
+    font-size: 24px;
+}
+footer{
+    color: #ffffff;
+}
+li {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #0bcead;
+    text-decoration: none;
+}

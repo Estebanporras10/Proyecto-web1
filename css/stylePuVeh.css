@@ -1,0 +1,70 @@
+/* colores a emplear
+  #71c55b Verde
+  #ff4040 Rojo
+  #e48200 Naranja 1
+  #ff8243 Naranja 2
+  #84b6f4 Azul*/
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #71c55b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.aheader{
+    color: #050a07;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.navheader {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos de menu*/
+
+.divmenu{
+    border: 3px inset #0bcead;
+    margin: 40px;
+    text-align: center;
+}
+
+.divtabla{
+    position: relative;
+    bottom: 10px;
+    left: 460px;
+}
+
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #71c55b;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+h3 {
+    font-size: 24px;
+}
+footer{
+    color: #ffffff;
+}
+li {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #0bcead;
+    text-decoration: none;
+}
